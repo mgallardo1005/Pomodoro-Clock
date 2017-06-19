@@ -1,0 +1,86 @@
+body {
+  background-image: url("https://static.pexels.com/photos/9352/glass-time-watch-business.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.heading {
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+  font-family: Asset;
+}
+
+.row {
+  width: 400px;
+  margin: 40px auto auto auto;
+}
+
+.row a {
+  color: black;
+  display: inline;
+}
+
+.row h2 {
+  display: inline;
+  font-size: 20px;
+}
+
+.session-time {
+  float: left;
+  font-size: 20px;
+  color: white;
+}
+
+.break-time {
+  float: right;
+  font-size: 20px;
+  color: white;
+}
+
+.clock {
+  width: 300px;
+  height: 300px;
+  background-color: #4d4d4d;
+  text-align: center;
+  margin: auto;
+  border-radius: 50%;
+  font-family: arial;
+  color: white;
+  margin-top: 30px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: green;
+}
+
+#timeType {
+  margin-top: 35px;
+}
+
+#time {
+  font-size: 100px;
+  margin-top: 20px;
+}
+
+#startTime {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+#reset {
+  text-align: center;
+  padding: 15px 40px;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  left: 45%;
+  margin-top: 25px;
+}
+
+.footer {
+  background-color: #ccccb3;
+  margin-top: 100px;
+  border-radius: 5px;
+}
